@@ -32,7 +32,7 @@ end
 #   #   expect(controller).to set_flash[:alert]
 #   #   expect(response).to redirect_to artist_songs_path(@artist)
 #   # end
-# 
+#
 #   def index
 #     if params[:artist_id]
 #       @artist = Artist.find_by(id: params[:artist_id])
@@ -47,8 +47,8 @@ end
 #       @songs = Song.all
 #     end
 #   end
-# 
-# 
+#
+#
 # #   def show
 # #     if params[:artist_id]
 # #       @artist = Artist.find_by(id: params[:artist_id])
@@ -66,7 +66,7 @@ end
 # #       @song = Song.find(params[:id])
 # #     end
 # #   end
-# 
+#
 #   def show
 #     if params[:artist_id] && Song.find_by(id: params[:id]).nil?
 #       flash[:alert] = "Song not found."
